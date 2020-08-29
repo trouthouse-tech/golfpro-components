@@ -7,7 +7,7 @@ declare type Props = {
   buttonStyle: {};
   textStyle: {};
   text: string;
-}
+};
 
 export default function TextButton(props: Props) {
   const {onPress, buttonStyle, textStyle, text} = props;
