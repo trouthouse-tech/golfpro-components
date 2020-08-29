@@ -2,7 +2,7 @@ import React from 'react';
 import LargeSquareButton from '../LargeSquareButton';
 import {Colors} from '../../styles';
 
-type Props = {
+declare type Props = {
   onPress(): void;
   text: string;
   buttonColor?: string;

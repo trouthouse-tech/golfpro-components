@@ -2,7 +2,7 @@ import React from 'react';
 import {Text} from 'react-native';
 import BaseButton from '../BaseButton';
 
-interface Props {
+declare type Props = {
   onPress(): void;
   buttonStyle: {};
   textStyle: {};

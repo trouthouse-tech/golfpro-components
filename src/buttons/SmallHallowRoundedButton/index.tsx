@@ -3,7 +3,7 @@ import BaseButton from '../BaseButton';
 import {StyleSheet} from 'react-native';
 import {Sizes, Utils} from '../../styles';
 
-type Props = {
+declare type Props = {
   onPress(): void;
   borderColor: string;
   child: React.Element;

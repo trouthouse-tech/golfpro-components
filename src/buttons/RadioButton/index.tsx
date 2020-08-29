@@ -2,7 +2,7 @@ import {View, StyleSheet, Text, TouchableHighlight} from 'react-native';
 import React from 'react';
 import {Fonts} from '../../styles';
 
-type Props = {
+declare type Props = {
   isActive: boolean;
   text: string;
   onPress(): void;

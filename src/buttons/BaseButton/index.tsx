@@ -1,7 +1,7 @@
 import React from 'react';
 import {TouchableHighlight, StyleSheet} from 'react-native';
 
-type Props = {
+declare type Props = {
   onPress(): void;
   buttonStyle: {};
   child: React.ReactNode;

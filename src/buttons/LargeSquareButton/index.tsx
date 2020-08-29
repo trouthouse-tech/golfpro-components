@@ -3,7 +3,7 @@ import {StyleSheet, Text} from 'react-native';
 import {Fonts, Utils, Colors, Sizes} from '../../styles';
 import BaseButton from '../BaseButton';
 
-type Props = {
+declare type Props = {
   onPress(): void;
   text: string;
   buttonColor?: string;
